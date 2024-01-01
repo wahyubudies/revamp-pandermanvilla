@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from '../../../components/Image/Image';
-import RouteName from '../../../route/Routename';
+import RouteName from '../../../route/RouteName';
 
 const BoxVilla = ({ side, title, facilities, capacity, cover, villaName }) => {
     if (side === 'left') {
