@@ -1,0 +1,11 @@
+<svg width="154" height="164" viewBox="0 0 154 164" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect width="154" height="164" rx="20" fill="#F2F2F2"/>
+<rect x="21" y="26" width="112" height="112" rx="56" fill="#07C378" fill-opacity="0.4"/>
+<rect x="45" y="50" width="63" height="63" fill="url(#pattern0)"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0_123_372" transform="scale(0.0078125)"/>
+</pattern>
+<image id="image0_123_372" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADsQAAA7EB9YPtSQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAOjSURBVHic7dq/S9RxHMfx56nllkI6tAg1aORUOEQJSREEzQ0t/R9RhDUEBgbtRdFi1lIKEQT9ovAvaGjRMsrDppq0wWv4nhTG/fDu8/l+7nuv1wO+S5f3eZ/v591xclBcI8AjoAysAXPVf+vWc+0fw8BXoLLj+g6MRTx3rHrGznNXgaGI59oO1/h/CbEjqLX87etqhDOthmfUXkSMCBotvwI8DXhebnpSD9Ci9Qa3HwDeAkcCnDUKvKreZz3lAGdZk85T/9kY6pWgmWf+9nWujXOsBbeIG8Fulj/TxuOwNtykuQWV2d3bwSjwrcn7vh3gcVgbQkfg5RdQqAi8/AJrNwIvvwu0GoGX30V2G4GX34Vmaf4jYrMf9WZzfQTWtmZfCfzMB44B74ANwv3SfHXmtVHd9VGAUnX5S8BeTMlv4HgvMA8cSjyM5a8XOFwie0noTzyMpbFZIntfMFFF/T6ABeIAxPU1uP0D8D6PQSyaSeBkvf9Q7zPjdOThLL5p6uzYbwHiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIA4ByDOAYhzAOIcgDgHIM4BiHMA4hyAOAcgzgGIcwDiHIC4ElBJPYSl41cAcQ5AXA9+C1BW6QHKqaewZNZ6gX3AqdSTWBKzAHuBx2RvBb50rnlgT4m/poATZK8IRTYCXKxz+xywGuFni+InsAS8STxHNFPUL38q0s8Wkj8GinMA4hyAOAcgzgGIcwDi+lIPkMDr1ANYHBPADLBMvL+eLVfPmMjpMVkD48A08In8/5T6BbgDTJJ9scZyknLpjiGRTly6Y4isSEt3DIF0w9ILFUMnDDIOXAIuAAcD3/cm8BL42OLPjwNngf5gE2VWgCfAQ1qfrStcAbYI+0zbABbJohoMMONg9b4Wq/cdctYt4HKAGQvpDOGWH3rptcSIYQs4HXHmjnWPYiy9lpAx3M159o7wguItvZZ2Y3ie/8jp3aDYS6+llRiuJ5k0sSHgM42XPpBovhAGaBzDCrA/1YCpDQMPgB9k31ZdoPhLr2U7hgXgF7AO3Cd7IiTzB7kq8CAizdg2AAAAAElFTkSuQmCC"/>
+</defs>
+</svg>
