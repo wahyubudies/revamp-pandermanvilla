@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import GeneralUtility from '../../utility/Utility';
-import RouteName from '../../route/Routename';
+import RouteName from '../../route/RouteName';
 
 const Navbar = () => {
     const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
