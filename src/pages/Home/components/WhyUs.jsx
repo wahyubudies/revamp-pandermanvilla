@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from '../../../components/Image/Image';
 
-const WhyUS = () => {
+const WhyUs = () => {
     const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
     const FOUR_REASON = [
         {
@@ -45,4 +45,4 @@ const WhyUS = () => {
     );
 };
 
-export default WhyUS;
+export default WhyUs;
