@@ -16,7 +16,7 @@ const Mawar = () => {
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",
-            title: "6 kamar tidur"
+            title: "15 kamar tidur"
         },
         {
             icon: BASE_URL_ICONS + "/colour/refigerator.svg",
@@ -24,7 +24,7 @@ const Mawar = () => {
         },
         {
             icon: BASE_URL_ICONS + "/colour/bathroom.svg",
-            title: "5 kamar mandi"
+            title: "16 kamar mandi"
         },
         {
             icon: BASE_URL_ICONS + "/colour/kitchen.svg",
@@ -43,34 +43,30 @@ const Mawar = () => {
             title: "ruang tamu"
         },
         {
-            icon: BASE_URL_ICONS + "/colour/family-room.svg",
-            title: "ruang keluarga"
+            icon: BASE_URL_ICONS + "/colour/hall.svg",
+            title: "hall 200m2"
         },
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/fasum-view-night.jpg",
-            title: "view night villa"
+            url: BASE_URL_IMG + "/villa/mawar/bathroom.jpg",
+            title: "15 Kamar Tidur, (6 Kamar, 5 Kamar, 4 Kamar)"
         },
         {
-            url: BASE_URL_IMG + "/fasum-billiard.jpg",
-            title: "meja billiard"
+            url: BASE_URL_IMG + "/villa/mawar/bedroom.jpg",
+            title: "15 Kamar Mandi Dalam, dilengkapi Air Panas & 1 Kamar Mandi Luar"
         },
         {
-            url: BASE_URL_IMG + "/fasum-balkon.jpg",
-            title: "view balkon"
+            url: BASE_URL_IMG + "/villa/mawar/kitchen.jpg",
+            title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/fasum-basket.jpg",
-            title: "lapangan basket"
+            url: BASE_URL_IMG + "/villa/mawar/family-room.jpg",
+            title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/fasum-tennis-table.jpg",
-            title: "tenis meja"
-        },
-        {
-            url: BASE_URL_IMG + "/fasum-kolam.jpg",
-            title: "kolam renang"
+            url: BASE_URL_IMG + "/villa/mawar/outside.jpg",
+            title: "pemandangan tampak luar"
         },
     ];
 

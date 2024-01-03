@@ -16,7 +16,7 @@ const Puncak = () => {
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",
-            title: "6 kamar tidur"
+            title: "8 kamar tidur"
         },
         {
             icon: BASE_URL_ICONS + "/colour/refigerator.svg",
@@ -24,7 +24,7 @@ const Puncak = () => {
         },
         {
             icon: BASE_URL_ICONS + "/colour/bathroom.svg",
-            title: "5 kamar mandi"
+            title: "6 kamar mandi"
         },
         {
             icon: BASE_URL_ICONS + "/colour/kitchen.svg",
@@ -49,28 +49,28 @@ const Puncak = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/fasum-view-night.jpg",
-            title: "view night villa"
+            url: BASE_URL_IMG + "/villa/puncak/balkon.jpg",
+            title: "balkon"
         },
         {
-            url: BASE_URL_IMG + "/fasum-billiard.jpg",
-            title: "meja billiard"
+            url: BASE_URL_IMG + "/villa/puncak/bathroom.jpg",
+            title: "6 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/fasum-balkon.jpg",
-            title: "view balkon"
+            url: BASE_URL_IMG + "/villa/puncak/bedroom.jpg",
+            title: "8 Kamar Tidur, Masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/fasum-basket.jpg",
-            title: "lapangan basket"
+            url: BASE_URL_IMG + "/villa/puncak/kitchen.jpg",
+            title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/fasum-tennis-table.jpg",
-            title: "tenis meja"
+            url: BASE_URL_IMG + "/villa/puncak/family-room.jpg",
+            title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/fasum-kolam.jpg",
-            title: "kolam renang"
+            url: BASE_URL_IMG + "/villa/puncak/outside.jpg",
+            title: "pemandangan tampak luar"
         },
     ];
 

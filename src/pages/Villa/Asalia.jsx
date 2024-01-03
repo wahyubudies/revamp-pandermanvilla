@@ -16,7 +16,7 @@ const Asalia = () => {
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",
-            title: "6 kamar tidur"
+            title: "5 kamar tidur"
         },
         {
             icon: BASE_URL_ICONS + "/colour/refigerator.svg",
@@ -24,7 +24,7 @@ const Asalia = () => {
         },
         {
             icon: BASE_URL_ICONS + "/colour/bathroom.svg",
-            title: "5 kamar mandi"
+            title: "3 kamar mandi"
         },
         {
             icon: BASE_URL_ICONS + "/colour/kitchen.svg",
@@ -38,39 +38,31 @@ const Asalia = () => {
             icon: BASE_URL_ICONS + "/colour/dining-room.svg",
             title: "ruang makan"
         },
-        {
-            icon: BASE_URL_ICONS + "/colour/sitting-room.svg",
-            title: "ruang tamu"
-        },
-        {
-            icon: BASE_URL_ICONS + "/colour/family-room.svg",
-            title: "ruang keluarga"
-        },
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/fasum-view-night.jpg",
-            title: "view night villa"
+            url: BASE_URL_IMG + "/villa/asalia/bathroom.jpg",
+            title: "5 Kamar Tidur, masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/fasum-billiard.jpg",
-            title: "meja billiard"
+            url: BASE_URL_IMG + "/villa/asalia/bedroom.jpg",
+            title: "3 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/fasum-balkon.jpg",
-            title: "view balkon"
+            url: BASE_URL_IMG + "/villa/asalia/kitchen.jpg",
+            title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/fasum-basket.jpg",
-            title: "lapangan basket"
+            url: BASE_URL_IMG + "/villa/asalia/family-room.jpg",
+            title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/fasum-tennis-table.jpg",
-            title: "tenis meja"
+            url: BASE_URL_IMG + "/villa/asalia/outside-night.jpg",
+            title: "pemandangan tampak luar malam hari"
         },
         {
-            url: BASE_URL_IMG + "/fasum-kolam.jpg",
-            title: "kolam renang"
+            url: BASE_URL_IMG + "/villa/asalia/outside.jpg",
+            title: "pemandangan tampak luar siang hari"
         },
     ];
 

@@ -8,7 +8,9 @@ const Gallery2Col = ({ facilities }) => {
                 <h3 className='font-lora mb-4 text-black font-bold text-2xl'>Galeri</h3>
                 <div className="grid grid-cols-2 gap-4">
                     {facilities.map(({ url, title }, index) => (
-                        <ImageThumbnail key={index} url={url} title={title} className="object-cover rounded-xl cursor-pointer" />
+                        <div className='rounded-xl w-full md:[250px] md:h-[340px]' key={index}>
+                            <ImageThumbnail  url={url} title={title} className="object-cover rounded-xl cursor-pointer" />
+                        </div>
                     ))}
                 </div>
             </div>

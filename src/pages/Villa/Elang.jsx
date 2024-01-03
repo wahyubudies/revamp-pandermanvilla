@@ -16,7 +16,7 @@ const Elang = () => {
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",
-            title: "6 kamar tidur"
+            title: "8 kamar tidur"
         },
         {
             icon: BASE_URL_ICONS + "/colour/refigerator.svg",
@@ -24,7 +24,7 @@ const Elang = () => {
         },
         {
             icon: BASE_URL_ICONS + "/colour/bathroom.svg",
-            title: "5 kamar mandi"
+            title: "4 kamar mandi"
         },
         {
             icon: BASE_URL_ICONS + "/colour/kitchen.svg",
@@ -46,31 +46,31 @@ const Elang = () => {
             icon: BASE_URL_ICONS + "/colour/family-room.svg",
             title: "ruang keluarga"
         },
+        {
+            icon: BASE_URL_ICONS + "/colour/tv.svg",
+            title: "TV LCD 32”"
+        },
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/fasum-view-night.jpg",
-            title: "view night villa"
+            url: BASE_URL_IMG + "/villa/elang/bathroom.jpg",
+            title: "4 Kamar Tidur 2 bed, dan 4 Kamar Tidur 1 bed"
         },
         {
-            url: BASE_URL_IMG + "/fasum-billiard.jpg",
-            title: "meja billiard"
+            url: BASE_URL_IMG + "/villa/elang/bedroom.jpg",
+            title: "2 Kamar Mandi dilengkapi Air Panas, dan 2 Kamar Mandi"
         },
         {
-            url: BASE_URL_IMG + "/fasum-balkon.jpg",
-            title: "view balkon"
+            url: BASE_URL_IMG + "/villa/elang/kitchen.jpg",
+            title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/fasum-basket.jpg",
-            title: "lapangan basket"
+            url: BASE_URL_IMG + "/villa/elang/family-room.jpg",
+            title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/fasum-tennis-table.jpg",
-            title: "tenis meja"
-        },
-        {
-            url: BASE_URL_IMG + "/fasum-kolam.jpg",
-            title: "kolam renang"
+            url: BASE_URL_IMG + "/villa/elang/outside.jpg",
+            title: "pemandangan tampak luar"
         },
     ];
 
