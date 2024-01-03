@@ -6,13 +6,13 @@ import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
 
 const Asalia = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa asalia";
     const SUBTITLE = "Kami mengerti bahwa bangunan minimalis adalah tempat ideal untuk melakukan aktivitas yang intimate bersama orang terdekat Anda. Walaupun minimalis, kami menyediakan banyak ruang untuk bercengkrama dengan bebas.";
     const URL_COVER = BASE_URL_IMG + "/villa/asalia/cover.jpg";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "20";
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",

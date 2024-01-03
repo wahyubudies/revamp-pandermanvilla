@@ -3,7 +3,7 @@ import GeneralUtility from '../../utility/Utility';
 import RouteName from '../../route/RouteName';
 
 const Navbar = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const [menuOpen, setMenuOpen] = useState(false);
     const [villaOpen, setVillaOpen] = useState(false);
     const [selectedVilla, setSelectedVilla] = useState(null);

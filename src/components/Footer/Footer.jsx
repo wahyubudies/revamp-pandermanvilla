@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const SOCIAL_MEDIA_DATA = [
         {
             icon: BASE_URL_IMG + "/instagram.png",

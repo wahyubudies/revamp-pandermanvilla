@@ -5,7 +5,7 @@ import Gallery2Col from '../../components/Gallery2Col/Gallery2Col';
 import ButtonWa from '../../components/ButtonWa/ButtonWa';
 
 const Facilities = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TEXT_COLLECTION = [text_1, text_2, text_3];
     const FACILITIES = [
         {

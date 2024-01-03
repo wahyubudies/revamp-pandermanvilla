@@ -4,10 +4,12 @@ import Video from '../../components/Video/Video';
 import Gallery from './components/Gallery';
 import ListVilla from './components/ListVilla';
 import ButtonWa from '../../components/ButtonWa/ButtonWa';
+import Banner from './components/Banner';
 
 const Home = () => {
     return (
         <>
+            <Banner />
             <WhyUs />
             <ListVilla />
             <Gallery />

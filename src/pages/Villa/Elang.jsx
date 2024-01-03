@@ -6,13 +6,13 @@ import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
 
 const Elang = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa elang";
     const SUBTITLE = "Sentuhan klasik pada interior Villa Elang membuat Anda merasakan kenyamanan dalam melakukan berbagai aktivitas.";
     const URL_COVER = BASE_URL_IMG + "/villa/elang/cover.jpg";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "50";
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",

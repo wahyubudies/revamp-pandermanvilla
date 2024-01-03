@@ -2,8 +2,8 @@ import React from 'react';
 import BoxVilla from './BoxVilla';
 
 const ListVilla = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const VILLA_INDUK_FASUM = [
         BASE_URL_ICONS + "/white/double-bed.svg",
         BASE_URL_ICONS + "/white/bathtub.svg",

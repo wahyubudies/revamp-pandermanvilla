@@ -4,7 +4,7 @@ import Video from '../../components/Video/Video';
 import ButtonWa from '../../components/ButtonWa/ButtonWa';
 
 const About = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TEXT_COLLECTION = [text_1, text_2, text_3, text_4, text_5];
     return (
         <>

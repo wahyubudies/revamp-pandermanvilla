@@ -6,13 +6,13 @@ import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
 
 const Induk = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa induk";
     const SUBTITLE = "Bangunan 2 lantai yang berlokasi di area tengah komplek Villa Panderman View dengan sentuhan modern menawarkan pengalaman staycation yang membahagiakan untuk Anda.";
     const URL_COVER = BASE_URL_IMG + "/villa/induk/cover.jpg";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "24";
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",

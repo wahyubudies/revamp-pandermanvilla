@@ -2,7 +2,7 @@ import React from 'react';
 import ImageThumbnail from '../../../components/ImageThumbnail/ImageThumbnail';
 
 const Gallery = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     return (
         <div className='pb-16'>
             <div className="container mx-auto px-4">

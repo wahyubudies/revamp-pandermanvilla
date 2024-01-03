@@ -4,8 +4,8 @@ import Video from '../../components/Video/Video';
 import ButtonSosmed from './components/ButtonSosmed';
 
 const Contact = () => {
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const SOSMED = [
         {
             url: "https://wa.me/+62",

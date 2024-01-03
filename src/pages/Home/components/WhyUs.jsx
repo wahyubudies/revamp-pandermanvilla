@@ -2,7 +2,7 @@ import React from 'react';
 import Image from '../../../components/Image/Image';
 
 const WhyUs = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const FOUR_REASON = [
         {
             icon: BASE_URL_IMG + "/why-us-icon-1.png",

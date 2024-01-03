@@ -6,13 +6,13 @@ import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
 
 const Puncak = () => {
-    const BASE_URL_IMG = import.meta.env.VITE_ASSETS_IMG;
+    const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa puncak";
     const SUBTITLE = "Ruang keluarga yang luas di Villa Puncak sangat cocok untuk melakukan berbagai aktivitas bersama keluarga. Letak Villa Puncak berada di lokasi paling tinggi di area Panderman View. View Gunung Panderman yang asri menjadikan Villa Puncak sebagai tempat ideal untuk Anda.";
     const URL_COVER = BASE_URL_IMG + "/villa/puncak/cover.jpg";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "30";
-    const BASE_URL_ICONS = import.meta.env.VITE_ASSETS_ICONS;
+    const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
         {
             icon: BASE_URL_ICONS + "/colour/bed.svg",
