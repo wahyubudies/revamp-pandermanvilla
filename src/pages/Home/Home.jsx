@@ -5,10 +5,14 @@ import Gallery from './components/Gallery';
 import ListVilla from './components/ListVilla';
 import ButtonWa from '../../components/ButtonWa/ButtonWa';
 import Banner from './components/Banner';
+import { Helmet } from "react-helmet";
 
 const Home = () => {
     return (
         <>
+            <Helmet>
+                <title>Home - Villa Panderman View</title>
+            </Helmet>
             <Banner />
             <WhyUs />
             <ListVilla />

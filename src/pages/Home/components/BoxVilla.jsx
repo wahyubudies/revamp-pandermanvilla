@@ -14,7 +14,7 @@ const BoxVilla = ({ side, title, facilities, capacity, cover, villaName }) => {
                     <p className='text-white my-6'>Ringkasan Fasilitas</p>
                     <div className={`grid ${title === "villa elang" ? 'grid-cols-5' : 'grid-cols-4'} w-[200px] gap-4 mb-6`}>
                         {facilities.map((item, index) => (
-                            <img src={item} alt="" key={index} className='w-8' />
+                            <img src={item.url} alt="" title={item.name} key={index} className='w-8' />
                         ))}
                     </div>
                     <div className="flex items-center">
@@ -34,7 +34,7 @@ const BoxVilla = ({ side, title, facilities, capacity, cover, villaName }) => {
                     <p className='text-white my-6'>Ringkasan Fasilitas</p>
                     <div className='grid grid-cols-4 w-[200px] gap-4 mb-6'>
                         {facilities.map((item, index) => (
-                            <img src={item} alt="" key={index} className='w-8' />
+                            <img src={item.url} alt="" title={item.name} key={index} className='w-8' />
                         ))}
                     </div>
                     <div className="flex items-center">

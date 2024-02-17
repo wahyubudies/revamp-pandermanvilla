@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ButtonWa = () => {
-    const LINK_WA = "https://wa.me/+62";
+    const LINK_WA = import.meta.env.VITE_LINK_WA;
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
 
     return (

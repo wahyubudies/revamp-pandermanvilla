@@ -6,9 +6,11 @@ const ImageThumbnail = ({ url, className, title }) => {
 
     return (
         <>
-            <span onClick={() => {
-                setPopup(true);
-            }}>
+            <span
+                className='hover:scale-95 transition-all relative'
+                onClick={() => {
+                    setPopup(true);
+                }}>
                 <Image image={{ title, url }} className={className} />
             </span>
 

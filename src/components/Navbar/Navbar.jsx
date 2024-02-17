@@ -49,7 +49,7 @@ const Navbar = () => {
                         </div>
 
                         {villaOpen && (
-                            <div className="absolute mt-2 bg-white border border-gray-300 rounded shadow-md">
+                            <div className="absolute mt-2 bg-white border border-gray-300 rounded shadow-md z-20">
                                 <div
                                     onClick={() => handleVillaClick('puncak')}
                                     className="cursor-pointer hover:bg-gray-100 px-4 py-2">
@@ -122,7 +122,7 @@ const Navbar = () => {
                     </div>
 
                     {villaOpen && (
-                        <div className="absolute mt-2 bg-white border border-gray-300 rounded shadow-md">
+                        <div className="absolute mt-2 bg-white border border-gray-300 rounded shadow-md z-20">
                             <div
                                 onClick={() => handleVillaClick('puncak')}
                                 className="cursor-pointer hover:bg-gray-100 px-4 py-2">

@@ -2,6 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
+    const LINK_WA = import.meta.env.VITE_LINK_WA;
     const SOCIAL_MEDIA_DATA = [
         {
             icon: BASE_URL_IMG + "/instagram.png",
@@ -33,7 +34,9 @@ const Footer = () => {
                 </div>
                 <div className="col-span-6 md:col-span-3 lg:col-span-2 mb-3 md:mb-0">
                     <h3 className="font-semibold mb-3">Informasi & <br /> Pemesanan</h3>
-                    <p className='text-slate-500'>0812-3516-370</p>
+                    <a className='text-slate-500' href={LINK_WA} target='_blank'>
+                        <p className='text-slate-500'>0812-3516-370</p>
+                    </a>
                 </div>
                 <div className="col-span-6 md:col-span-3  lg:col-span-2 mb-3 md:mb-0">
                     <h3 className="font-semibold mb-3">Sosial Media</h3>
@@ -44,7 +47,7 @@ const Footer = () => {
                         </div>
                     ))}
                 </div>
-                <div className="col-span-12 md:col-span-6 lg:col-span-4 mb-3 md:mb-0 md:mt-4">
+                <div className="col-span-12 md:col-span-6 lg:col-span-4 mb-3 md:mb-0 mt-4 md:mt-0">
                     <iframe
                         className='h-[250px] w-full border-0 rounded-2xl'
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15808.158785328686!2d112.5225929!3d-7.890916!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7886d49c071afd%3A0x81e47297b94dc460!2sVilla%20Panderman%20View%20Di%20Batu!5e0!3m2!1sid!2sid!4v1703900489002!5m2!1sid!2sid"

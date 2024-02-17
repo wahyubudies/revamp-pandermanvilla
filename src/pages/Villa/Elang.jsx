@@ -4,12 +4,13 @@ import Video from "../../components/Video/Video";
 import Gallery2Col from "../../components/Gallery2Col/Gallery2Col";
 import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
+import { Helmet } from "react-helmet";
 
 const Elang = () => {
     const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa elang";
     const SUBTITLE = "Sentuhan klasik pada interior Villa Elang membuat Anda merasakan kenyamanan dalam melakukan berbagai aktivitas.";
-    const URL_COVER = BASE_URL_IMG + "/villa/elang/cover.jpg";
+    const URL_COVER = BASE_URL_IMG + "/villa/elang/cover.webp";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "50";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
@@ -53,29 +54,32 @@ const Elang = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/elang/bathroom.jpg",
+            url: BASE_URL_IMG + "/villa/elang/compressed/bathroom.webp",
             title: "4 Kamar Tidur 2 bed, dan 4 Kamar Tidur 1 bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/bedroom.jpg",
+            url: BASE_URL_IMG + "/villa/elang/compressed/bedroom.webp",
             title: "2 Kamar Mandi dilengkapi Air Panas, dan 2 Kamar Mandi"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/kitchen.jpg",
+            url: BASE_URL_IMG + "/villa/elang/compressed/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/family-room.jpg",
+            url: BASE_URL_IMG + "/villa/elang/compressed/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/outside.jpg",
+            url: BASE_URL_IMG + "/villa/elang/compressed/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];
 
     return (
         <>
+            <Helmet>
+                <title>Villa Elang - Villa Panderman View</title>
+            </Helmet>
             <div className="container mx-auto px-4 pt-8 md:pt-16">
                 <div className="w-full max-w-[900px] mx-auto">
                     <h1 className='text-center text-green-primary font-lora font-bold text-3xl md:text-4xl mb-3'>{GeneralUtility.toCapitalize(TITLE)}</h1>

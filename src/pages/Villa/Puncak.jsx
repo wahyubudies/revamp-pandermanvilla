@@ -4,12 +4,13 @@ import Video from "../../components/Video/Video";
 import Gallery2Col from "../../components/Gallery2Col/Gallery2Col";
 import FacilitiesList from './components/FacilitiesList';
 import GeneralUtility from '../../utility/Utility';
+import { Helmet } from "react-helmet";
 
 const Puncak = () => {
     const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const TITLE = "villa puncak";
     const SUBTITLE = "Ruang keluarga yang luas di Villa Puncak sangat cocok untuk melakukan berbagai aktivitas bersama keluarga. Letak Villa Puncak berada di lokasi paling tinggi di area Panderman View. View Gunung Panderman yang asri menjadikan Villa Puncak sebagai tempat ideal untuk Anda.";
-    const URL_COVER = BASE_URL_IMG + "/villa/puncak/cover.jpg";
+    const URL_COVER = BASE_URL_IMG + "/villa/puncak/cover.webp";
     const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
     const CAPACITY = "30";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
@@ -49,33 +50,36 @@ const Puncak = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/puncak/balkon.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/balkon.webp",
             title: "balkon"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/bathroom.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/bathroom.webp",
             title: "6 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/bedroom.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/bedroom.webp",
             title: "8 Kamar Tidur, Masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/kitchen.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/family-room.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/outside.jpg",
+            url: BASE_URL_IMG + "/villa/puncak/compressed/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];
 
     return (
         <>
+            <Helmet>
+                <title>Villa Puncak - Villa Panderman View</title>
+            </Helmet>
             <div className="container mx-auto px-4 pt-8 md:pt-16">
                 <div className="w-full max-w-[900px] mx-auto">
                     <h1 className='text-center text-green-primary font-lora font-bold text-3xl md:text-4xl mb-3'>{GeneralUtility.toCapitalize(TITLE)}</h1>

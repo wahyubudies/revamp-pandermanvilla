@@ -9,7 +9,7 @@ const Gallery2Col = ({ facilities }) => {
                 <div className="grid grid-cols-2 gap-4">
                     {facilities.map(({ url, title }, index) => (
                         <div className='rounded-xl w-full md:[250px] md:h-[340px]' key={index}>
-                            <ImageThumbnail  url={url} title={title} className="object-cover rounded-xl cursor-pointer" />
+                            <ImageThumbnail url={url} title={title} className="object-cover rounded-xl cursor-pointer" />
                         </div>
                     ))}
                 </div>

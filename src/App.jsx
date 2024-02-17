@@ -23,7 +23,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="facilities" element={<Facilities />} />
 
-        <Route path='villa/' element={<LayoutVilla />}>
+        <Route path='/villa' element={<LayoutVilla />}>
           <Route path="induk" element={<Induk />} />
           <Route path="puncak" element={<Puncak />} />
           <Route path="asalia" element={<Asalia />} />
