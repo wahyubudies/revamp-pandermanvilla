@@ -28,7 +28,7 @@ const Contact = () => {
                 <div className="w-full max-w-[900px] mx-auto">
                     <h1 className='text-center text-green-primary font-lora font-bold text-3xl md:text-4xl mb-7'>Hubungi Kami</h1>
                     <div className="h-[250px] md:h-[500px] max-w-[900px] mx-auto mb-7">
-                        <Image image={{ title: "", url: BASE_URL_IMG + "/page-cover/compressed/contact.webp" }} className="rounded-2xl object-cover" />
+                        <Image image={{ title: "", url: BASE_URL_IMG + "/page-cover/contact.webp" }} className="rounded-2xl object-cover" />
                     </div>
 
                     <p className='text-gray-paragraf mt-16 mb-8 text-center w-fit mx-auto md:text-lg'>

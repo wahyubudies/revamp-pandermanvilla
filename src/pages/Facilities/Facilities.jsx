@@ -10,27 +10,27 @@ const Facilities = () => {
     const TEXT_COLLECTION = [text_1, text_2, text_3];
     const FACILITIES = [
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-view-night.webp",
+            url: BASE_URL_IMG + "/fasum-view-night.webp",
             title: "view night villa"
         },
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-billiard.webp",
+            url: BASE_URL_IMG + "/fasum-billiard.webp",
             title: "meja billiard"
         },
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-balkon.webp",
+            url: BASE_URL_IMG + "/fasum-balkon.webp",
             title: "view balkon"
         },
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-basket.webp",
+            url: BASE_URL_IMG + "/fasum-basket.webp",
             title: "lapangan basket"
         },
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-tennis-table.webp",
+            url: BASE_URL_IMG + "/fasum-tennis-table.webp",
             title: "tenis meja"
         },
         {
-            url: BASE_URL_IMG + "/fasum-compressed/fasum-kolam.webp",
+            url: BASE_URL_IMG + "/fasum-kolam.webp",
             title: "kolam renang"
         },
     ];
@@ -43,7 +43,7 @@ const Facilities = () => {
                 <div className="w-full max-w-[900px] mx-auto">
                     <h1 className='text-center text-green-primary font-lora font-bold text-3xl md:text-4xl mb-7'>Fasilitas Kami</h1>
                     <div className="h-[250px] md:h-[500px] max-w-[900px] mx-auto mb-7">
-                        <Image image={{ title: "", url: BASE_URL_IMG + "/fasum-compressed/page-cover/compressed/facilities.webp" }} className="rounded-2xl object-cover" />
+                        <Image image={{ title: "", url: BASE_URL_IMG + "/page-cover/facilities.webp" }} className="rounded-2xl object-cover" />
                     </div>
                     {TEXT_COLLECTION.map((item, index) => (
                         <p className='text-gray-paragraf mb-4 text-justify w-full' key={index}>

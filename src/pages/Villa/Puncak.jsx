@@ -11,7 +11,7 @@ const Puncak = () => {
     const TITLE = "villa puncak";
     const SUBTITLE = "Ruang keluarga yang luas di Villa Puncak sangat cocok untuk melakukan berbagai aktivitas bersama keluarga. Letak Villa Puncak berada di lokasi paling tinggi di area Panderman View. View Gunung Panderman yang asri menjadikan Villa Puncak sebagai tempat ideal untuk Anda.";
     const URL_COVER = BASE_URL_IMG + "/villa/puncak/cover.webp";
-    const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
+    const URL_VIDEO = "https://www.youtube.com/embed/7C1qLMeu_bI?si=OCIcn8apkytUUqms";
     const CAPACITY = "30";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
@@ -50,27 +50,27 @@ const Puncak = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/balkon.webp",
+            url: BASE_URL_IMG + "/villa/puncak/balkon.webp",
             title: "balkon"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/bathroom.webp",
+            url: BASE_URL_IMG + "/villa/puncak/bathroom.webp",
             title: "6 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/bedroom.webp",
+            url: BASE_URL_IMG + "/villa/puncak/bedroom.webp",
             title: "8 Kamar Tidur, Masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/kitchen.webp",
+            url: BASE_URL_IMG + "/villa/puncak/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/family-room.webp",
+            url: BASE_URL_IMG + "/villa/puncak/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/puncak/compressed/outside.webp",
+            url: BASE_URL_IMG + "/villa/puncak/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];

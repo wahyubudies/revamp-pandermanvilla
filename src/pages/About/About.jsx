@@ -16,7 +16,7 @@ const About = () => {
                 <div className="w-full max-w-[900px] mx-auto">
                     <h1 className='text-center text-green-primary font-lora font-bold text-3xl md:text-4xl mb-7'>Tentang Kami</h1>
                     <div className="h-[250px] md:h-[500px] max-w-[900px] mx-auto mb-7">
-                        <Image image={{ title: "", url: BASE_URL_IMG + "/page-cover/compressed/about.webp" }} className="rounded-2xl object-cover" />
+                        <Image image={{ title: "", url: BASE_URL_IMG + "/page-cover/about.webp" }} className="rounded-2xl object-cover" />
                     </div>
                     {TEXT_COLLECTION.map((item, index) => (
                         <p className='text-gray-paragraf mb-4 text-justify w-full' key={index}>

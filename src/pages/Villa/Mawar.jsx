@@ -50,23 +50,23 @@ const Mawar = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/mawar/compressed/bathroom.webp",
+            url: BASE_URL_IMG + "/villa/mawar/bathroom.webp",
             title: "15 Kamar Tidur, (6 Kamar, 5 Kamar, 4 Kamar)"
         },
         {
-            url: BASE_URL_IMG + "/villa/mawar/compressed/bedroom.webp",
+            url: BASE_URL_IMG + "/villa/mawar/bedroom.webp",
             title: "15 Kamar Mandi Dalam, dilengkapi Air Panas & 1 Kamar Mandi Luar"
         },
         {
-            url: BASE_URL_IMG + "/villa/mawar/compressed/kitchen.webp",
+            url: BASE_URL_IMG + "/villa/mawar/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/mawar/compressed/family-room.webp",
+            url: BASE_URL_IMG + "/villa/mawar/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/mawar/compressed/outside.webp",
+            url: BASE_URL_IMG + "/villa/mawar/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];

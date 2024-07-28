@@ -11,7 +11,7 @@ const Elang = () => {
     const TITLE = "villa elang";
     const SUBTITLE = "Sentuhan klasik pada interior Villa Elang membuat Anda merasakan kenyamanan dalam melakukan berbagai aktivitas.";
     const URL_COVER = BASE_URL_IMG + "/villa/elang/cover.webp";
-    const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
+    const URL_VIDEO = "https://www.youtube.com/embed/H2Lm1v1M8B8?si=AgzUeOubX_jSbo-t";
     const CAPACITY = "50";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
@@ -54,23 +54,23 @@ const Elang = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/elang/compressed/bathroom.webp",
+            url: BASE_URL_IMG + "/villa/elang/bathroom.webp",
             title: "4 Kamar Tidur 2 bed, dan 4 Kamar Tidur 1 bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/compressed/bedroom.webp",
+            url: BASE_URL_IMG + "/villa/elang/bedroom.webp",
             title: "2 Kamar Mandi dilengkapi Air Panas, dan 2 Kamar Mandi"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/compressed/kitchen.webp",
+            url: BASE_URL_IMG + "/villa/elang/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/compressed/family-room.webp",
+            url: BASE_URL_IMG + "/villa/elang/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/elang/compressed/outside.webp",
+            url: BASE_URL_IMG + "/villa/elang/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];

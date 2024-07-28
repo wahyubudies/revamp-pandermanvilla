@@ -11,7 +11,7 @@ const Induk = () => {
     const TITLE = "villa induk";
     const SUBTITLE = "Bangunan 2 lantai yang berlokasi di area tengah komplek Villa Panderman View dengan sentuhan modern menawarkan pengalaman staycation yang membahagiakan untuk Anda.";
     const URL_COVER = BASE_URL_IMG + "/villa/induk/cover.webp";
-    const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
+    const URL_VIDEO = "https://www.youtube.com/embed/PyV_cfC1CcQ?si=q3k6x0CI1kF4V3NE";
     const CAPACITY = "24";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
@@ -50,27 +50,27 @@ const Induk = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/bathroom.webp",
+            url: BASE_URL_IMG + "/villa/induk/bathroom.webp",
             title: "6 Kamar Tidur, masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/bedroom.webp",
+            url: BASE_URL_IMG + "/villa/induk/bedroom.webp",
             title: "5 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/kitchen.webp",
+            url: BASE_URL_IMG + "/villa/induk/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/family-room.webp",
+            url: BASE_URL_IMG + "/villa/induk/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/balkon.webp",
+            url: BASE_URL_IMG + "/villa/induk/balkon.webp",
             title: "balkon"
         },
         {
-            url: BASE_URL_IMG + "/villa/induk/compressed/outside.webp",
+            url: BASE_URL_IMG + "/villa/induk/outside.webp",
             title: "pemandangan tampak luar"
         },
     ];

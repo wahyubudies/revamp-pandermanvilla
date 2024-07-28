@@ -7,23 +7,23 @@ const Banner = () => {
     const BASE_URL_IMG = import.meta.env.BASE_URL + "img";
     const SLIDER_IMAGE = [
         {
-            url: BASE_URL_IMG + "/slider/slider1.png",
+            url: BASE_URL_IMG + "/slider/slider1.webp",
             title: ""
         },
         {
-            url: BASE_URL_IMG + "/slider/slider2.png",
+            url: BASE_URL_IMG + "/slider/slider2.webp",
             title: ""
         },
         {
-            url: BASE_URL_IMG + "/slider/slider3.png",
+            url: BASE_URL_IMG + "/slider/slider3.webp",
             title: ""
         },
         {
-            url: BASE_URL_IMG + "/slider/slider4.png",
+            url: BASE_URL_IMG + "/slider/slider4.webp",
             title: ""
         },
         {
-            url: BASE_URL_IMG + "/slider/slider5.png",
+            url: BASE_URL_IMG + "/slider/slider5.webp",
             title: ""
         },
     ];

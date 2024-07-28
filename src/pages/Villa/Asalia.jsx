@@ -11,7 +11,7 @@ const Asalia = () => {
     const TITLE = "villa asalia";
     const SUBTITLE = "Kami mengerti bahwa bangunan minimalis adalah tempat ideal untuk melakukan aktivitas yang intimate bersama orang terdekat Anda. Walaupun minimalis, kami menyediakan banyak ruang untuk bercengkrama dengan bebas.";
     const URL_COVER = BASE_URL_IMG + "/villa/asalia/cover.webp";
-    const URL_VIDEO = "https://www.youtube.com/embed/1g1WYhmax0U?si=9CmLFT0kR_WxgSv0";
+    const URL_VIDEO = "https://www.youtube.com/embed/Bz1e4BnOJfU?si=d2OxyjeLFDTiiIaj";
     const CAPACITY = "20";
     const BASE_URL_ICONS = import.meta.env.BASE_URL + "icons";
     const FACILITIES_ICON = [
@@ -42,27 +42,27 @@ const Asalia = () => {
     ];
     const FACILITIES_PHOTO = [
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/bathroom.webp",
+            url: BASE_URL_IMG + "/villa/asalia/bathroom.webp",
             title: "5 Kamar Tidur, masing-masing Double Bed"
         },
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/bedroom.webp",
+            url: BASE_URL_IMG + "/villa/asalia/bedroom.webp",
             title: "3 Kamar Mandi, dilengkapi Air Panas"
         },
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/kitchen.webp",
+            url: BASE_URL_IMG + "/villa/asalia/kitchen.webp",
             title: "dapur"
         },
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/family-room.webp",
+            url: BASE_URL_IMG + "/villa/asalia/family-room.webp",
             title: "ruang keluarga"
         },
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/outside-night.webp",
+            url: BASE_URL_IMG + "/villa/asalia/outside-night.webp",
             title: "pemandangan tampak luar malam hari"
         },
         {
-            url: BASE_URL_IMG + "/villa/asalia/compressed/outside.webp",
+            url: BASE_URL_IMG + "/villa/asalia/outside.webp",
             title: "pemandangan tampak luar siang hari"
         },
     ];
